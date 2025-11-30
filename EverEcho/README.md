@@ -1,4 +1,6 @@
-# EverEcho — Web3 Mutual Aid Network
+# EverEcho — Web3 Mutual Aid Network build on Base Sepolia
+
+Out Beta Staging Website：<https://ever-echo-2025.vercel.app/> 
 
 > **Make help echo. Turn social capital into verifiable, circulating value.**  
 EverEcho is a Web3-based mutual-aid ecosystem where users earn **ECHO (EOCHO)** tokens by helping others, and spend them to exchange skills, time, or resources. Each act of help becomes a **trusted, on-chain record** that can accumulate into long-term reputation.
@@ -40,13 +42,19 @@ A self-reinforcing value loop:
 - Each address can mint only once
 - If supply cap is reached, mint = 0 but registration still succeeds
 
+![NewRegister](Pictures/NewRegister.png)
+
 ### ✅ Task Square (Mutual Aid Marketplace)
 - Create Task (`Open`)
 - Accept Task (`InProgress`) with **helper stake**
 - Submit Work (`Submitted`)
 - Confirm Complete or Auto Complete (`Completed`)
 - Cancel & Timeout protections (`Cancelled`)
+
 ![TaskSquare](Pictures/TaskSquare.png)
+
+- Task Example：Wish a coffee chat
+![TaskSquare Detail](Pictures/TaskSquare Detail.png)
 
 
 ### ✅ Bilateral Escrow & Fee Burn
@@ -56,14 +64,20 @@ A self-reinforcing value loop:
   - Helper receives `0.98R`
   - `0.02R` burned as platform fee
   - Helper bond fully refunded
-![GetContact](Pictures/GetContact.png)
+
+![Profile-TaskHistory](Pictures/Profile-TaskHistory.png)
 
 ### ✅ Privacy-first Contacts (Off-chain, Encrypted)
 - Contacts stored off-chain with **AES-256-GCM**
 - Per-task DEK wrapped for both parties using their `encryptionPubKey`
 - Contacts visible only after `InProgress` and later states
 
-![Profile-TaskHistory](Pictures/Profile-TaskHistory.png)
+![GetContact](Pictures/GetContact.png)
+
+-decrypt the contact and reach out via Telegram
+![GetContact](Pictures/GetContact2.png)
+
+
 
 ### ✅ On-chain Contribution History
 Profile shows:
@@ -72,6 +86,7 @@ Profile shows:
 - token-in/out changes
 - timestamps and status
 
+![MyProfile](Pictures/MyProfile.png)
 ---
 
 ## 🏗️ Architecture
@@ -80,6 +95,8 @@ Profile shows:
 - `EOCHO Token` (ERC20, cap, initial mint + burn)
 - `Register` (registration whitelist + profileURI)
 - `TaskEscrow` (task state machine + escrow settlement)
+
+![Contracts](Pictures/Contracts.png)
 
 **Off-chain**
 - Profile service (stores full profile JSON)
@@ -130,12 +147,10 @@ Key functions:
 
 ---
 
-## 🛠️ Getting Started
+## 🛠️ Getting Started- Reach out,the world echoes back!!!
 
-### 1) Clone
-```bash
-git clone https://github.com/your-org/everecho.git
-cd everecho
+<https://ever-echo-2025.vercel.app/>
+
 
 
 
