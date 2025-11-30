@@ -15,6 +15,19 @@ Build an on-chain creation platform for **recording**, **incentivizing**, and **
 
 ---
 
+## 📱 User Journey
+- 原创作者 → 上传原创作品 → 设置是否允许二创 → 设定授权费用 → 获得收益（打赏 + 二创授权费 + 整个创作链的间接收益分成，如三创、四创支付的部分授权费）→ 随时提现
+- 普通用户 → 浏览作品广场 → 为喜欢的作品打赏 → 点开作品卡片查看完整创作链
+- 二创作者 → 收藏心仪作品 → 支付授权费获得二创权限 → 上传二创作品 → 设置是否允许再次衍生 → 设定授权费用 → 获得收益（打赏 + 他人对本作品的二创授权费）
+- 广场中的所有作品（原创/二创/多层衍生作品）均可被授权进行再创作、接受打赏，每个创作者都有机会获得收益。
+
+- Original Creators → Upload original work → Set remix permissions → Define license fee → Earn revenue (tips + direct license fees + indirect revenue share from the entire creation chain, including fees from 3rd and 4th generation derivatives) → Withdraw anytime
+- General Users → Browse the creation gallery → Tip works they love → View work cards to explore the full creation lineage
+- Remix Creators → Save inspiring works → Pay license fee to obtain remix rights → Upload derivative creation → Set remix permissions for their work → Define license fee → Earn revenue (tips + license fees from others remixing their work)
+- All works in the gallery (original/derivative/multi-generation remixes) can be remixed by others, receive tips, and generate income for creators at every level.
+
+---
+
 ## ✨ Core Features
 
 ### 🔗 On-Chain Creation Tracking
