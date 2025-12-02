@@ -10,6 +10,7 @@
 
 > [Here is PPT ](https://ppt-previewer-pro.lovable.app), There were created using Lovable, but I  have no credits to convert it to English. You can use a browser plugin for translation.
 > [Here is a wbesite](https://frontend-genie.lovable.app)
+> 📌Risk Warning: Please note that this website is currently a small demo and may have imperfections. It has not yet participated in any relevant contract security audits.
 
 ## 📖 Introduction
 
