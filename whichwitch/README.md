@@ -2,29 +2,39 @@
 
 > *Let creation be a tree that can see its own growth.*
 
+**📊 Presentation**: [View on Canva (demo video included)](https://www.canva.com/design/DAG5t6aAKIU/JLK99jHgZNk_ge5mS-qDsQ/view?utm_content=DAG5t6aAKIU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3a5cb0fa9a)
+
 **🌐 Live App**: [https://which-witch-v1.vercel.app/](https://which-witch-v1.vercel.app/)  
 *Fully deployed with smart contracts, database, MetaMask wallet integration, and IPFS storage. Don't hesitate to try!*
+- connect to sepolia testnet in your wallet first :)
+- rpc url：https://eth-sepolia.g.alchemy.com/v2/Jf9AtHozZzalDMkqCamEp
 
-**📊 Presentation**: [View on Canva](https://www.canva.com/design/DAG5t6aAKIU/JLK99jHgZNk_ge5mS-qDsQ/view?utm_content=DAG5t6aAKIU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3a5cb0fa9a)
+
 
 ---
 
 ## 🎯 Mission
 
-Build an on-chain creation platform for **recording**, **incentivizing**, and **tracing** every creation. Enable automatic authorization and revenue sharing for original works, safeguarding creators' income and fostering continuous creation and sharing.
+We are building an on-chain handmade/ digital art co-creation platform for **recording**, **incentivizing**, and **tracing** every creation. Enable automatic authorization and revenue sharing for original works, safeguarding creators' income and fostering continuous creation and sharing.
+
+- We focus on Tokenomics and automated copytight & licensing for Originals & derivatives works.
+- We wish the creations build along the creationchain don't take value away anymore, this time they grow it for everyone.
+- Like a seed that keeps blooming, every blossom carries artists' imprint.🌼
+- Inspiring others is no longer silent contribution, but a new form of asset.
+
+我们正在打造一个 Web3 手工 / 数字艺术共创经济平台
+- 🌱这是一个把“灵感启发”变成“共同收益”的机制
+- ❤️别人基于你的作品创作，这次不是“抢”，而是一起“涨”
+- ✨每笔授权费都会自动回馈原作者与贡献者
+- 💎启发别人，不再是无声的付出，而是一种新的资产
+- 🎯自动授权、收益透明、尊重原创
 
 ---
 
 ## 📱 User Journey
-- 原创作者 → 上传原创作品 → 设置是否允许二创 → 设定授权费用 → 获得收益（打赏 + 二创授权费 + 整个创作链的间接收益分成，如三创、四创支付的部分授权费）→ 随时提现
-- 普通用户 → 浏览作品广场 → 为喜欢的作品打赏 → 点开作品卡片查看完整创作链
-- 二创作者 → 收藏心仪作品 → 支付授权费获得二创权限 → 上传二创作品 → 设置是否允许再次衍生 → 设定授权费用 → 获得收益（打赏 + 他人对本作品的二创授权费）
-- 广场中的所有作品（原创/二创/多层衍生作品）均可被授权进行再创作、接受打赏，每个创作者都有机会获得收益。
 
-- Original Creators → Upload original work → Set remix permissions → Define license fee → Earn revenue (tips + direct license fees + indirect revenue share from the entire creation chain, including fees from 3rd and 4th generation derivatives) → Withdraw anytime
-- General Users → Browse the creation gallery → Tip works they love → View work cards to explore the full creation lineage
-- Remix Creators → Save inspiring works → Pay license fee to obtain remix rights → Upload derivative creation → Set remix permissions for their work → Define license fee → Earn revenue (tips + license fees from others remixing their work)
-- All works in the gallery (original/derivative/multi-generation remixes) can be remixed by others, receive tips, and generate income for creators at every level.
+<img width="522" height="483" alt="截屏2025-12-01 上午10 51 09" src="https://github.com/user-attachments/assets/83a15824-2a93-4e8f-947f-0cad76e9506c" />
+<img width="812" height="666" alt="截屏2025-12-01 上午10 57 31" src="https://github.com/user-attachments/assets/c8f44c22-daf8-4cdb-a973-88aa1c57a997" />
 
 ---
 
@@ -89,7 +99,7 @@ User (Withdraw) → PaymentManager.withdraw()
 
 | Scenario | Direct Creator | Original Creator | Middle Ancestors |
 |----------|---------------|------------------|------------------|
-| **Original Work Authorization** | 40% | - | - |
+| **Original Work Authorization** | 100% | - | - |
 | **1-Level Derivative** | 40% | 60% (40% + 20%) | - |
 | **Multi-Level Derivative** | 40% | 40% | 20% (split) |
 
